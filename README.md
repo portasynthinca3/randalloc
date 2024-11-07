@@ -50,3 +50,25 @@ Wait, no, I think I might have mixed up something.
 
 ## Licensing
 This project is hereby licensed under the [WTFPL](http://www.wtfpl.net/txt/copying/).
+
+## Contribution Policy
+Due to various compliance requirements, you are now required to submit a DNA
+test in your first pull request to this repository. If it is found out that you
+are more than 50% Russian by blood, your pull request will be rejected.
+Additionally, if it is found out that you are more than 10% Russian by blood,
+you must provide one of the following or your pull request will be rejected:
+  - A photo of a valid ID or equivalent document proving that you are not
+    citizen of the Russian Federation;
+  - A photo of a valid residence permit or equivalent document issued by a state
+    other than the Russian Federation before Sept. 21st, 2022 (the start of
+    mobilization in the Russian Federation);
+  - A video of you burning down your Russian ID and passport and subsequently
+    singlehandedly overthrowing your dictator.
+
+In addition to all the requirements outlined above, you must prove that you have
+never worked for a Russian-based company sanctioned by the glorious U.S. of A.
+
+These requirements are retroactive; shall we ever find out that your status
+(family tree, citizenship, residency and/or employment history) now conflicts
+one or more of these requirements, your patch will be totally removed from the
+git log. No revert commit, no anything. Just undo & force push.
