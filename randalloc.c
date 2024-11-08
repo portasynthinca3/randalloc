@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <time.h>
 #include <string.h>
+#include <limits.h>
+#include <errno.h>
 
 #define RANDALLOC_SIZE (1*1024*1024)
 _Static_assert(RANDALLOC_SIZE < RAND_MAX);
@@ -25,12 +27,18 @@ void __wrap_free(void* ptr) {
 }
 
 void* __wrap_calloc(size_t nmemb, size_t size) {
-    return malloc(nmemb * size);
+    if (size && nmemb > SIZE_MAX / size) {
+        errno = ENOMEM;
+        return NULL;
+    }
+    size_t total = nmemb * size;
+    void* r = malloc(total);
+    if (total) {
+        memset(r, '\0', total);
+    }
+    return r;
 }
 
 void* __wrap_realloc(void* ptr, size_t size) {
-    void* new = malloc(size);
-    memcpy(new, ptr, size);
-    free(ptr);
-    return new;
+    return ptr;
 }
