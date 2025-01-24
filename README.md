@@ -72,3 +72,9 @@ These requirements are retroactive; shall we ever find out that your status
 (family tree, citizenship, residency and/or employment history) now conflicts
 one or more of these requirements, your patch will be totally removed from the
 git log. No revert commit, no anything. Just undo & force push.
+
+**NOTICE:** This is a humorous policy that won't actually be applied. Of course,
+everyone who knows me is aware that I, myself, am Russian by nationality. There
+are actual contribution policies like this out in the wild though. I made this
+one to poke fun at real anti-Russian discrimination in the open source community
+that was sparked by the Linux maintainers ban.
