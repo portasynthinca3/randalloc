@@ -53,10 +53,11 @@ This project is hereby licensed under the [WTFPL](http://www.wtfpl.net/txt/copyi
 
 ## Contribution Policy
 Due to various compliance requirements, you are now required to submit a DNA
-test in your first pull request to this repository. If it is found out that you
-are more than 50% Russian by blood, your pull request will be rejected.
-Additionally, if it is found out that you are more than 10% Russian by blood,
-you must provide one of the following or your pull request will be rejected:
+test in the CONTRIBUTORS file as part of your first pull request to this
+repository. If it is found out that you are more than 50% Russian by blood,
+your pull request will be rejected. Additionally, if it is found out that you
+are more than 10% Russian by blood, you must provide one of the following or
+your pull request will be rejected:
   - A photo of a valid ID or equivalent document proving that you are not
     citizen of the Russian Federation;
   - A photo of a valid residence permit or equivalent document issued by a state
